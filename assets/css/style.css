@@ -40,10 +40,6 @@ main p {
   margin: 15px;
 }
 
-main pre {
-  margin: 15px;
-}
-
 .flex-row {
   margin-top: 5%;
   padding: 10%;
@@ -83,8 +79,10 @@ div h2 {
 }
 
 pre {
-  
+  margin: 15px;
   display: flex;
+  align-items: center;
+  align-content: flex-start;
 }
 
 .linear-gradient-background {
