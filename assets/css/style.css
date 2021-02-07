@@ -6,11 +6,13 @@ body {
     font-family: Arial;
     margin: 0;
     background-color: var(--dark);
+    font-size: 75%;
   }
 
 header {
   text-align: center;
-  margin: 2em;
+  margin: 0;
+  padding: 3rem;
   align-content: center;
  
 }
@@ -18,16 +20,18 @@ header {
 h1 {
   width: 100%;
   color: var(--pink);
-  font-size: xx-large;
+  font-size: 3rem;
+  margin-bottom: 2%;
   
 }
 
 header p {
   color: var(--white);
+
 }
 
 main {
-  
+  margin-top: 2%;
   width: 96%;
 }
 
@@ -40,8 +44,9 @@ main pre {
   margin: 15px;
 }
 
-.container {
+.flex-row {
   margin-top: 5%;
+  padding: 10%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -49,13 +54,15 @@ main pre {
 }
   
 .code-box {
+    display: flex;
+    flex-direction: column;
     border-style: dashed;
     border-color: white;
     width: 33.33%;
-    height: 200px;
+    height: 100%;
     margin: 10px;
-    flex: 0 0 30%;
-    
+    flex: 1 0 30%;
+   
 }
 
 .box-title {
@@ -65,7 +72,7 @@ main pre {
   border: var(--white);
   border-style: solid;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   background: var(--dark);
   
@@ -75,8 +82,9 @@ div h2 {
   margin: 5px;
 }
 
-figure {
-  color: var(--white);
+pre {
+  
+  display: flex;
 }
 
 .linear-gradient-background {
@@ -111,4 +119,8 @@ h3 {
 
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
+  .code-box {
+    width: 100%;
+  }
+}
