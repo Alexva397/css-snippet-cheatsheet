@@ -18,6 +18,7 @@
             to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
         </p>
     </header>
+    
     <main>
         <section class="flex-row">
             <div class="code-box">
@@ -25,11 +26,13 @@
                 <p>Use these three properties to creat a Flexbox row layout.</p>
                 <pre class="linear-gradient-background">
                     <code>
-                    .row {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                    }</code>
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+                    </code>
+                    
                 </pre>
             </div>
             <div class="code-box">
@@ -37,10 +40,11 @@
                 <p>Use this to creat a Flexbox column layout.</p>
                 <pre class="linear-gradient-background">
                     <code>
-                    .column {
-                        display: flex;
-                        flex-direction: column;
-                    }</code>
+.column {
+    display: flex;
+    flex-direction: column;
+}
+                </code>
                 </pre>
             </div>
             <div class="code-box">
@@ -48,12 +52,13 @@
                 <p>Build a 12-column layout using CSS Grid</p>
                 <pre class="linear-gradient-background">
                     <code>
-                    .grid {
-                        display: grid;
-                        width: 100%;
-                        grid-template-columns:
-                    repeat(12, 1fr);
-                    }</code>
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns:
+repeat(12, 1fr);
+}
+                </code>
                 </pre>
             </div>
             <div class="code-box">
@@ -61,12 +66,13 @@
                 <p>This will creat a background linear gradient from top to bottom.</p>
                 <pre class="linear-gradient-background">
                     <code>
-                        .linear-gradient-background {
-                            background-image: linear-gradient(
-                              rgba(232, 102, 236, 0.3) 0%,
-                              rgba(232, 102, 236, 0.6) 100%
-                            );
-                        }</code>
+.linear-gradient-background {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}
+                    </code>
                 </pre>
             </div>
             <div class="code-box">
@@ -74,17 +80,18 @@
                 <p>Use transition and box shadows to glow on hover</p>
                 <pre class="linear-gradient-background">
                     <code>
-                    .code-card .card-header {
-                        border-radius: 8px;
-                        transition: all 0.5s ease-in-out;
-                    }
+.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
 
-                    .code-card:hover,
-                    .code-card:hover .card-header {
-                        box-shadow: inset 0px 0px 8px
-                    rgba(232, 102, 236, 1), 0 0 15px
-                    rgba(232, 102, 236, 1);
-                    }</code>
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+rgba(232, 102, 236, 1), 0 0 15px
+rgba(232, 102, 236, 1);
+}
+                </code>
                 </pre>
             </div>
             <div class="code-box">
@@ -93,14 +100,16 @@
                     point.</p>
                 <pre class="linear-gradient-background">
                         <code>
-                        .card-header {
-                            position: relative;
-                            margin-top: -20px;
-                        }</code>
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+                    </code>
                     </pre>
             </div>
         </section>
     </main>
+    
     <footer>
         <h3>Made with <span class="heart">&#9829;</span> and CSS</h3>
     </footer>
